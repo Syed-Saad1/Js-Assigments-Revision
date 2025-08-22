@@ -217,3 +217,24 @@
 // var Age= NowYear - BirthYear;
 // document.write("My Age is : " +" " +Age);
 
+// Q#33
+// var radius  = 40 ;
+// document.write("Radius of Circle is :" + " " + radius + "</br>");
+// var circle = 4 * 3.142 * radius;
+// document.write("The Circle is :" + " " + circle + "</br>");
+// var area = 3.142 * radius * radius;
+// document.write("The Area is : " + " " + area);
+
+// Q#34
+// var FSnack = "Slanty";
+// document.write("Favourite Snak :" + " " + FSnack + "</br>");
+// var Age = 15;
+// document.write("My Current Age :" + " " + Age + "</br>");
+// var AgeM = 100;
+// document.write("Maxiumum Age  :" + " " + AgeM + "</br>");
+// var SEating = 4;
+// document.write("Per Day Eat :" + " " + SEating + "</br>")
+// var TotalSnack = (AgeM - Age ) * 365 * SEating;
+// document.write("You Will Need " + " " + TotalSnack + " Chips to last you until the ripe old age of " + " " + AgeM );
+
+// Q#35
