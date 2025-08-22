@@ -148,6 +148,72 @@
 // var reminder = num%3;
 // document.write("The Reminder is: " + reminder);
 
+// Q#25
+// var ticket = 600;
+// var totaltickets = ticket * 5;
+// document.write("Total Coast to Buy 5 tickets to a Movie is: " + " " + totaltickets + " PKR " );
 
+// Q#26
 
+// var num = 12;
+// document.write(num + " " + "  x  1  = " + " " + num * 1 + "</br>");
+// document.write(num + " " + "  x  2  = " + " " + num * 2 + "</br>");
+// document.write(num + " " + "  x  3  = " + " " + num * 3 + "</br>");
+// document.write(num + " " + "  x  4  = " + " " + num * 4 + "</br>");
+// document.write(num + " " + "  x  5  = " + " " + num * 5 + "</br>");
+// document.write(num + " " + "  x  6 = " + " " + num * 6 + "</br>");
+// document.write(num + " " + "  x  7  = " + " " + num * 7 + "</br>");
+// document.write(num + " " + "  x  8  = " + " " + num * 8 + "</br>");
+// document.write(num + " " + "  x  9  = " + " " + num * 9 + "</br>");
+// document.write(num + " " + "  x  10  = " + " " + num * 10 + "</br>");
+
+// Q#27
+// var celsius1 = 30;
+// var fahrenheit1 = (celsius1 * 9/5) + 32;
+// document.write(celsius1 + " °C is " + " " + fahrenheit1 + " °F " + " </br>");
+// var celsius2 = 86;
+// var fahrenheit2 = (celsius2 - 32) * 5/9;
+// document.write(celsius2 + " °C is " + " " + fahrenheit2 + " °F ");
+
+// Q#28
+// var price1 =999;
+// document.write("Price of item 1: " + " " + price1 + "</br>");
+// var price2 =499;
+// document.write( "Price of item 2: " + " " + price2 + "</br>");
+// var quantity1 = 4;
+// document.write("quantity of item 1: " + " " + quantity1 + "</br>");
+// var quantity2 = 2;
+// document.write("quantity of item 2: " + " " +  quantity2 + "</br>");
+// var shipping = 350;
+// document.write("You Order Shipping Charges is : " + " " +  shipping + "</br>");
+// var result = price1 * quantity1 + price2 * quantity2 +  shipping ;
+// document.write("Total Coast of your order is   " + " " +result);
+
+// Q#29
+// var TotalMarks = 1000 ;
+// document.write("Total Marks: " + " " + TotalMarks + " </br>");
+// var givenMarks = 884;
+// document.write("Obtained Marks: " + " " + givenMarks + " </br>");
+// var result = givenMarks / TotalMarks  *100 ;
+// document.write("Your Percantage is: " +" " +result + "%.."     + " it's a Good Result");
+
+// Q#30
+// var UsDollar = 104.80;
+// var SaudiRiyal = 28;
+// var PKR = UsDollar * 23 + SaudiRiyal * 54;
+// document.write("Total Currency Price in PKR: " + " " + PKR);
+
+// Q#31
+// var num1 = 15;
+// document.write("Given Number is : " + " " + num1 + "</br>");
+// var num2 = ((num1 + 5) * 10) / 2;
+// document.write("After Calculation is : " + " " + num2 + "</br>");
+
+// Q#32
+// var NowYear = 2025;
+// document.write("Current Year is : " + " " + NowYear + "</br>");
+// var BirthYear = 2010;
+// document.write("Birth  Year is : " + " " + BirthYear + "</br>");
+// var Age= NowYear - BirthYear;
+// document.write("My Age is : " +" " +Age);
 
