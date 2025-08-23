@@ -238,3 +238,252 @@
 // document.write("You Will Need " + " " + TotalSnack + " Chips to last you until the ripe old age of " + " " + AgeM );
 
 // Q#35
+// var city = prompt("Type Your City")
+
+// if (city === "karachi") {
+//     console.log("The City Of Light")
+// } else if (city === "Lahore") {
+//     console.log("Welcome To Lahore")
+// } else if (city === "Islamabad") {
+//     console.log("Welcome To Islamabad")
+// } else if (city === "Sialkot") {
+//     console.log("Welcome To Sialkot")
+// } else if (city === "Peshawar") {
+//     console.log("Welcome To Peshawar")
+// } else {
+//     console.log("Type Your City")
+// }
+
+// Q#36
+// var Gender=prompt("Type Your Gender")
+// if(Gender === "Male"){
+//     console.log("WELCOME TO SIR");
+// }else if (Gender === "Female"){
+//     console.log("WELCOME TO Ma’am.");
+// }else{
+//     console.log("Type Your Gender");
+// }
+
+// Q#37
+// var Signal = prompt ("Type The Shown Signal");
+
+// if(Signal === "Red"){
+//     console.log("Must Stop!");
+// }else if (Signal === "Yellow"){
+//     console.log("Ready to move!");
+// }else if (Signal === "Green"){
+//      console.log("Move now!");
+// }else{
+//     console.log("Then Follow The Signal")
+// }
+
+// Q#38
+// var Fuel = prompt ("Check Your Fuel Average!");
+
+// if(Fuel === "1letter"){
+//     console.log("Your Car Petrol Average Is OK!")
+// }else if(Fuel === "0.25"){
+//     console.log("“Please refill the fuel in your car”")
+// }else{
+//     console.log("Fuel is Normal in your Car")
+// }
+
+// Q#39
+// var a = 4;
+// ++a;
+// if (++a === 3){
+// alert("given condition for variable a is true");
+// }
+// var b = 82;
+// b++;
+// if(b++ === 83){
+// alert("given condition for variable a is true");
+// }
+
+
+
+// Q#40
+// var number=8;
+// var guess=+ prompt("Guess Your Number In 1 to 10")
+
+// if(guess === number ){
+//     alert=(" “Bingo! Correct answer!” ");
+// }else if(guess + 1 ===  number || guess - 1 ===  number ){
+//     alert("Some thing Wrong!");
+// }else{
+//    alert("Your Guess in Wrong")
+// }
+
+// Q#41
+// var number = +prompt("Enter a number");
+
+// if (number % 3 === 0) {
+//   alert("The number is divisible by 3!");
+// } else {
+//   alert("The number is not divisible by 3.");
+// }
+
+// Q#42
+// var number = +prompt("check even or odd:");
+
+// if (number % 2 === 0) {
+//   alert("This number is even.");
+// } else {
+//   alert("This number is odd.");
+// }
+
+// Q#43
+// var temp =+prompt("Check Your Weather In City");
+
+// if(temp > 40){
+//     alert("It is too hot outside!");
+// }else if(temp > 30){
+//     alert("The Weather today is Normal!");
+// }else if(temp > 20){
+//     alert("Today’s Weather is cool!");
+// }else if(temp > 10){
+//     alert("OMG! Today’s weather is so Cool!");
+// }else{
+//     alert("It's Weather This Time Not Available!");
+// }
+
+// Q#44
+// var char = prompt("Enter a single character:");
+
+// if (char >= "A" && char <= "Z") {
+//   alert("Uppercase letter");
+// } else if (char >= "a" && char <= "z") {
+//   alert("Lowercase letter");
+// } else if (!isNaN(char)) {
+//   alert("Number");
+// } else {
+//   alert("Other character");
+// }
+
+
+// Q#45
+// var num1 = prompt("Enter first integer:"));
+// var num2 = prompt("Enter second integer:"));
+
+// if (num1 > num2) {
+//   alert("First number is larger: " + num1);
+// } else if (num2 > num1) {
+//   alert("Second number is larger: " + num2);
+// } else {
+//   alert("Both numbers are equal");
+// }
+
+// Q#46
+// var number = prompt("Enter a number:");
+
+// if (number > 0) {
+//   alert("Positive number");
+// } else if (number < 0) {
+//   alert("Negative number");
+// } else {
+//   alert("Zero");
+// }
+
+// Q#47
+// var ch = prompt("Enter a single character:");
+
+// if (ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u") {
+//   alert(true);
+// } else {
+//   alert(false);
+// }
+
+// Q#48
+// var correctPassword = "mySecret123";  // you can set any password
+// var userPassword = prompt("Enter your password:");
+
+// if (!userPassword) {
+//   alert("Please enter your password");
+// } else if (userPassword === correctPassword) {
+//   alert("Correct! The password you entered matches the original password");
+// } else {
+//   alert("Incorrect password");
+// }
+
+// Q#49
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//   greeting = "Good day";
+// else
+//   greeting = "Good evening";
+// }
+
+
+// Q#50
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//   greeting = "Good day";
+// } else {
+//   greeting = "Good evening";
+// }
+// alert(greeting);
+
+
+// Q#51
+
+// var time = prompt("Enter time in 24-hour format (e.g. 1900 for 7PM):"));
+// if (time >= 0000 && time < 1200) {
+//   alert("Good morning!");
+// } else if (time >= 1200 && time < 1700) {
+//   alert("Good afternoon!");
+// } else if (time >= 1700 && time < 2100) {
+//   alert("Good evening!");
+// } else if (time >= 2100 && time <= 2359) {
+//   alert("Good night!");
+// } else {
+//   alert("Invalid time format");
+// }
+
+// Q#52
+// var studentnames = [];
+
+// Q#53
+// var studentNames = ("hello");
+// console.log("studentNames")
+
+// Q#54
+// // var stringArray = ["apple", "banana", "cherry"];
+// console.log("String Array: " + stringArray);
+
+// Q#55
+// var numberArray = [10, 20, 30, 40];
+// console.log("Number Array: " + numberArray);
+
+// Q#56
+// var booleanArray = [true, false, true, false];
+// console.log("Boolean Array: " + booleanArray);
+
+// Q#57
+// var mixedArray = ["hello", 123, true, "world", false];
+// console.log("Mixed Array: " + mixedArray);
+
+// Q#58
+// console.log("List of Education Qualifications in Pakistan:");
+// console.log(qualifications);
+// console.log("Displaying one by one:");
+// for (var i = 0; i < qualifications.length; i++) {
+// console.log((i + 1) + ". " + qualifications[i]);
+
+// Q#59
+// var multiArray = [[], [], []];
+// console.log("Empty multidimensional array:");
+// console.log(multiArray);
+
+// Q#60
+//  var matrix = [
+//  [0, 1, 2, 3],
+//  [1, 0, 1, 2],
+//  [2, 1, 0, 1]
+// ];
+// console.log("Matrix:");
+// for (var i = 0; i < matrix.length; i++) {
+//     console.log(matrix[i].join(" "));
